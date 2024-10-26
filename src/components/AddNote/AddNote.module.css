@@ -1,0 +1,44 @@
+.container {
+  margin-bottom: 20px;
+  border: 2px solid #ff69b4;
+  border-radius: 4px;
+  width: 350px;
+  padding: 16px 10px;
+}
+
+.container:hover {
+  box-shadow: 0 4px 10px rgba(255, 105, 180, 0.5);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 30px;
+  padding: 15px 10px;
+  font-size: 14px;
+}
+
+.span {
+  font-size: 18px;
+}
+
+.btn {
+  border: 1px solid rgb(141, 141, 141);
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}
